@@ -20,12 +20,7 @@ atharva-portfolio
 
 ## Features
 
-- 🎨 Beautiful ASCII art header
-- 📝 Interactive menu navigation
-- 🎯 Skills showcase
-- 🚀 Project highlights
-- 🔗 Social media links
-- 🌈 Colorful terminal output
+
 - 📦 Easy to install and use
 
 ## Usage
