@@ -1,5 +1,5 @@
 HEY GM GM,
-Welcome to CLI Portfolio of Atharva aka AharvaXDevs
+Welcome to CLI Portfolio of Atharva aka AtharvaXDevs
 
 A beautiful terminal-based portfolio with interactive menu, built with Node.js.
 
