@@ -1,10 +1,10 @@
 {
-  "name": "Sriyush-cli",
+  "name": "sriyush",
   "version": "1.0.1",
   "description": "CLI version of Ayush's portfolio - A beautiful terminal-based portfolio with interactive menu",
   "main": "index.js",
   "bin": {
-    "sriyush-portfolio": "./index.js"
+    "sriyush": "./index.js"
   },
   "scripts": {
     "start": "node index.js",
