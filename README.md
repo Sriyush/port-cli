@@ -1,5 +1,5 @@
 HEY GM GM,
-Welcome to CLI Portfolio of Atharva aka AtharvaXDevs
+Welcome to CLI Portfolio of Ayush Srivastava aka Sriyush
 
 A beautiful terminal-based portfolio with interactive menu, built with Node.js.
 
@@ -8,14 +8,14 @@ A beautiful terminal-based portfolio with interactive menu, built with Node.js.
 You can install and run this portfolio using npx command:
 
 ```bash
-npx atharva-portfolio-cli
+npx sriyush
 ```
 
 Or install it globally:
 
 ```bash
-npm install -g atharva-portfolio-cli
-atharva-portfolio
+npm install -g sriyush
+sriyush
 ```
 
 ## Features
@@ -28,7 +28,7 @@ atharva-portfolio
 After installation, simply run:
 
 ```bash
-atharva-portfolio
+sriyush
 ```
 
 Use the arrow keys to navigate through the menu and press Enter to select an option.

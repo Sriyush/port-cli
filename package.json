@@ -1,26 +1,26 @@
 {
-  "name": "atharva-portfolio-cli",
+  "name": "Sriyush-cli",
   "version": "1.0.1",
-  "description": "CLI version of Atharva's portfolio - A beautiful terminal-based portfolio with interactive menu",
+  "description": "CLI version of Ayush's portfolio - A beautiful terminal-based portfolio with interactive menu",
   "main": "index.js",
   "bin": {
-    "atharva-portfolio": "./index.js"
+    "sriyush-portfolio": "./index.js"
   },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["portfolio", "cli", "terminal", "developer", "resume"],
-  "author": "Atharva",
+  "author": "Sriyush",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atharvamhaske/portfolio-cli.git"
+    "url": "git+https://github.com/Sriyush/port-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/atharvamhaske/portfolio-cli/issues"
+    "url": "https://github.com/Sriyush/port-cli/issues"
   },
-  "homepage": "https://github.com/atharvamhaske/portfolio-cli#readme",
+  "homepage": "https://github.com/Sriyush/port-cli#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "boxen": "^5.1.2",

@@ -30,18 +30,19 @@ const getCurrentDate = () => {
 };
 
 const portfolio = {
-  name: 'ATHARVA',
-  role: 'Web3 Enthusiast | UI/UX Designer | Full-Stack Developer | Building the future of decentralized web',
+  name: 'Ayush Srivastava',
+  callme: '',
+  role: 'Web3 Enthusiast | UFull-Stack Developer | Working as Frontend Developer',
   status: '🚧 Main Portfolio Under Construction 🚧',
-  location: '📍 PUNE, India',
+  location: '📍 Bengaluru, India',
   time: getCurrentTime(),
   date: getCurrentDate(),
   web3: {
     interests: ['Blockchain', 'Smart Contracts', 'DeFi', 'NFTs'],
-    currentFocus: 'Learning Solidity & Web3 Development',
-    favoriteTech: ['Ethereum', 'Hardhat', 'Web3.js', 'IPFS']
+    currentFocus: 'Working as a WEB3 Frontend Developer',
+    favoriteTech: ['Ethereum', 'Hardhat', 'Web3.js', 'WAGMI']
   },
-  skills: ['JavaScript', 'React', 'Node.js', 'TypeScript', 'Solidity', 'Web3'],
+  skills: ['JavaScript', 'React', 'Node.js', 'TypeScript', 'Reactjs','Nextjs', 'Web3'],
   projects: [
     {
       name: 'Main Portfolio Website',
@@ -52,14 +53,14 @@ const portfolio = {
       description: 'A fun terminal-based portfolio (This one!)'
     },
     {
-      name: 'Web3 Projects',
-      description: 'Coming soon... 🚀'
+      name: 'DbSynchro',
+      description: 'A tool to synchronize databases and google sheet data, built with Node.js and Express.js.'
     }
   ],
   social: {
-    github: '🔗 https://github.com/atharvamhaske',
-    linkedin: '💼 https://linkedin.com/in/atharvaxdevs',
-    twitter: '🐦 https://twitter.com/atharvaxdevs'
+    github: '🔗 https://github.com/sriyush',
+    linkedin: '💼 https://linkedin.com/in/sriyush',
+    twitter: '🐦 https://twitter.com/Sriyush1'
   }
 };
 
@@ -76,17 +77,17 @@ const displayHeader = async () => {
   await sleep(2000);
   spinner.stop();
 
-  const header = gradient.rainbow(`
-  █████╗ ████████╗██╗  ██╗ █████╗ ██████╗ ██╗   ██╗ █████╗ 
- ██╔══██╗╚══██╔══╝██║  ██║██╔══██╗██╔══██╗██║   ██║██╔══██╗
- ███████║   ██║   ███████║███████║██████╔╝██║   ██║███████║
- ██╔══██║   ██║   ██╔══██║██╔══██║██╔══██╗██║   ██║██╔══██║
- ██║  ██║   ██║   ██║  ██║██║  ██║██║  ██║╚██████╔╝██║  ██║
- ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
-  `);
+const header = (`
+ ██████╗  ███████╗  ██╗██╗   ██╗██╗  ██╗ ██████╗  ██╗  ██╗
+ ██╔═══   ██╔═  ██╗ ██║╚██╗ ██╔╝██║  ██║ ██╔═══╝  ██║  ██║
+╚██████╔╝ ███████╔╝ ██║ ╚████╔╝ ██║  ██║╚██████╔╝ ███████║
+     ██╗  ██╔══ ██╗ ██║  ╚██╔╝  ██║  ██║ ╔══ ██╗  ██╔══██║
+ ██████╔╝ ██║   ██╗ ██║   ██║   ╚████╔╝  ██████╔╝ ██║  ██║
+ ╚═════╝  ╚═╝   ╚═╝ ╚═╝   ╚═╝    ╚═══╝   ╚═════╝  ╚═╝  ╚═╝
+`);
 
   console.log(header);
-  await animateText(chalk.cyan('Welcome to ATHARVA\'s CLI Portfolio! 👋'), 50);
+  await animateText(chalk.cyan('Welcome to AYush\'s CLI Portfolio! 👋'), 50);
   await animateText(chalk.yellow('🚧 Main Portfolio Under Construction 🚧'), 50);
   await animateText(chalk.gray('This is a fun terminal-based version while the main portfolio is being built!'), 50);
   await animateText(chalk.blue(`⏰ Current Time: ${portfolio.time}`), 50);
